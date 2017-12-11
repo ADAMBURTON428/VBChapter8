@@ -77,6 +77,24 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FriendList2.Designer.vb">
+      <DependentUpon>FriendList2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FriendList2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FriendsList.Designer.vb">
+      <DependentUpon>FriendsList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FriendsList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.vb">
+      <DependentUpon>Menu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -102,6 +120,15 @@
   <ItemGroup>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FriendList2.resx">
+      <DependentUpon>FriendList2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FriendsList.resx">
+      <DependentUpon>FriendsList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
